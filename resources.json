@@ -1,18 +1,21 @@
 {
-  "community_bridge": {
-    "0.11.2": [
-      "Added support for new version checker options!",
-      "Added support for qb-fuel",
-      "input will now return in qbs format if qb is used (passed as true)",
-      "migrated usage of cache.ped to PlayerPedId",
-      "qb-progressbar patched to fix inverted options",
-      "hr locales added",
-      "managment folder/module renamed to banking",
-      "notify fixes added for fallback options",
-      "fix for origen police",
-      "kartik-mdt patches",
-      "callbacks now work correctly again",
-      "debug commands (harmless) were disabled"
-    ]
-  }
+    "community_bridge": {
+		"repo": "TheOrderFivem/community_bridge"
+        "versions": {
+            "0.11.2": [
+		      "Added support for new version checker options!",
+		      "Added support for qb-fuel",
+		      "input will now return in qbs format if qb is used (passed as true)",
+		      "migrated usage of cache.ped to PlayerPedId",
+		      "qb-progressbar patched to fix inverted options",
+		      "hr locales added",
+		      "managment folder/module renamed to banking",
+		      "notify fixes added for fallback options",
+		      "fix for origen police",
+		      "kartik-mdt patches",
+		      "callbacks now work correctly again",
+		      "debug commands (harmless) were disabled"
+		    ]
+        }
+    }
 }
