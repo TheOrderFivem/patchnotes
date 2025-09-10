@@ -3,7 +3,10 @@
     "repo": "TheOrderFivem/community_bridge",
     "versions": {
       "0.12.0": [
-        "Added support for new version checker options!"
+        "Added support for new version checker options."
+      ],
+      "0.12.1": [
+        "Hotfix for point args: they were not deprecated but had been removed."
       ]
     }
   }
