@@ -1,13 +1,25 @@
 {
-  "community_bridge": {
-    "repo": "TheOrderFivem/community_bridge",
-    "versions": {
-      "0.12.0": [
-        "Added support for new version checker options."
-      ],
-      "0.12.1": [
-        "Hotfix for point args: they were not deprecated but had been removed."
-      ]
+    "community_bridge": {
+        "repo": "TheOrderFivem/community_bridge",
+        "versions": {
+            "0.12.0": [
+                "Added support for new version checker options."
+            ],
+            "0.12.1": [
+                "Hotfix for point args: they were not deprecated but had been removed."
+            ],
+            "0.13.0": [
+                "Codebase cleanup, removed examples directory, and improved ox_lib initialization.",
+                "Major refactors to inventory, notification, framework, and utility systems.",
+                "Improved error handling, entity tracking, prop removal, and overall code style.",
+                "Added support for wasabi_uikit, keep-progressbars, fd_dispatch, and emergencydispatch.",
+                "Target system improvements, including cleaner option handling and returning zone names.",
+                "Improved documentation with added function and event descriptions.",
+                "Localization updates, including new input.submit_text key and string refinements.",
+                "Refactored dispatch alerts, target resource handling, and unique ID generation.",
+                "Folder and loading fixes for vehicle keys and general resource detection.",
+                "Entity, particle, dialog, zone, and menu system reliability improvements."
+            ]
+        }
     }
-  }
 }
