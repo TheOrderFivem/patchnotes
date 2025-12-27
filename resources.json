@@ -19,6 +19,9 @@
                 "Refactored dispatch alerts, target resource handling, and unique ID generation.",
                 "Folder and loading fixes for vehicle keys and general resource detection.",
                 "Entity, particle, dialog, zone, and menu system reliability improvements."
+            ],
+            "0.13.1": [
+                "locale fixes, cache system removal (use ox_lib cache), particles removed for server side."
             ]
         }
     }
