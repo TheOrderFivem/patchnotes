@@ -22,6 +22,14 @@
             ],
             "0.13.1": [
                 "locale fixes, cache system removal (use ox_lib cache), particles removed for server side."
+            ],
+            "0.13.2": [
+                "Added IsVehicleOwnedByPlayer helper for improved vehicle ownership checks.",
+                "Added UpdateRotation method to ClientEntity.",
+                "Replaced the legacy behavior system with a more efficient implementation.",
+                "Added ZSX_UIV2 support for helptext, notifications, and progress bars.",
+                "Applied review feedback and minor follow-up adjustments from recent pull requests.",
+                "General refactoring and cleanup across multiple files to improve maintainability."
             ]
         }
     }
