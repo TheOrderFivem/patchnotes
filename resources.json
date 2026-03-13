@@ -2,12 +2,6 @@
     "community_bridge": {
         "repo": "TheOrderFivem/community_bridge",
         "versions": {
-            "0.12.0": [
-                "Added support for new version checker options."
-            ],
-            "0.12.1": [
-                "Hotfix for point args: they were not deprecated but had been removed."
-            ],
             "0.13.0": [
                 "Codebase cleanup, removed examples directory, and improved ox_lib initialization.",
                 "Major refactors to inventory, notification, framework, and utility systems.",
@@ -30,6 +24,13 @@
                 "Added ZSX_UIV2 support for helptext, notifications, and progress bars.",
                 "Applied review feedback and minor follow-up adjustments from recent pull requests.",
                 "General refactoring and cleanup across multiple files to improve maintainability."
+            ],
+            "0.13.3": [
+                "Fixed GetIsFrameworkAdmin method for QBCore framework",
+                "Fixed qb-inventory version check function",
+                "Decreased marker thread interval to 2ms to remove flickering",
+                "Added framework functions",
+                "Fixed issue with qb-input checkboxes"
             ]
         }
     }
