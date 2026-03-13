@@ -30,6 +30,7 @@
                 "Fixed qb-inventory version check function",
                 "Decreased marker thread interval to 2ms to remove flickering",
                 "Added framework functions",
+                "Fixed a plate update check when not using jg-mechanic for ox users",
                 "Fixed issue with qb-input checkboxes"
             ]
         }
